@@ -2,7 +2,7 @@ name: Deploy Nginx to Minikube
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"] #push to main
 
 jobs:
   deploy:
