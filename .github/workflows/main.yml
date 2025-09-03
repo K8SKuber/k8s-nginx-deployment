@@ -1,0 +1,29 @@
+name: Deploy Nginx on Minikube
+on:
+    push:
+        branches: ["main"]
+
+jobs:
+    deploy:
+        runs-on: self-hosted
+        steps:
+            # checkout the repos
+            - name: checkout the repos
+              uses: action/checkout@v3
+            
+            # ensure cubectl is installed
+            - name: verify kubectl version
+              uses: kubectl version --client
+
+            # verify minikube cluster is accessable
+            - name: check the cluster info
+              uses: kubectl cluster-info
+            
+            # deploy kubernets manifest
+            - name: apply kubernetes manifest
+              uses: kubectl apply -f k8s-manifests/
+             
+            # verify pods are runnig
+            - name: check the pods status
+              uses: kubectl get pods
+
