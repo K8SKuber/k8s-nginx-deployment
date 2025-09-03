@@ -19,7 +19,7 @@ jobs:
         run: kubectl cluster-info
 
       - name: Apply Kubernetes manifests
-        run: kubectl apply -f k8s-manifests/
+        run: kubectl apply -f project1/
 
       - name: Check running pods
         run: kubectl get pods -o wide
