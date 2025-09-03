@@ -1,29 +1,30 @@
-name: Deploy Nginx on Minikube
+name: Deploy Nginx to Minikube
+
 on:
-    push:
-        branches: ["main"]
+  push:
+    branches: ["main"]
 
 jobs:
-    deploy:
-        runs-on: self-hosted
-        steps:
-            # checkout the repos
-            - name: checkout the repos
-              uses: action/checkout@v3
-            
-            # ensure cubectl is installed
-            - name: verify kubectl version
-              uses: kubectl version --client
+  deploy:
+    runs-on: self-hosted
 
-            # verify minikube cluster is accessable
-            - name: check the cluster info
-              uses: kubectl cluster-info
-            
-            # deploy kubernets manifest
-            - name: apply kubernetes manifest
-              uses: kubectl apply -f k8s-manifests/
-             
-            # verify pods are runnig
-            - name: check the pods status
-              uses: kubectl get pods
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      - name: Install kubectl
+        run: |
+          curl -LO "https://dl.k8s.io/release/v1.30.0/bin/windows/amd64/kubectl.exe"
+          move kubectl.exe C:\Windows\System32\kubectl.exe
+
+      - name: Verify kubectl version
+        run: kubectl version --client
+
+      - name: Verify cluster access
+        run: kubectl cluster-info
+
+      - name: Apply Kubernetes manifests
+        run: kubectl apply -f k8s-manifests/
+
+      - name: Check running pods
+        run: kubectl get pods -o wide
