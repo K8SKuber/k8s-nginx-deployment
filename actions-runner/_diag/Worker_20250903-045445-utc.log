@@ -1,0 +1,1519 @@
+[2025-09-03 04:54:45Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-09-03 04:54:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:45Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.credentials'
+[2025-09-03 04:54:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:45Z INFO HostContext] Well known config file 'Runner': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.runner'
+[2025-09-03 04:54:45Z INFO Worker] Version: 2.328.0
+[2025-09-03 04:54:45Z INFO Worker] Commit: 6f9a9110adce65f44ca6f7c0ae142b9cc6af937b
+[2025-09-03 04:54:45Z INFO Worker] Culture: en-US
+[2025-09-03 04:54:45Z INFO Worker] UI Culture: en-US
+[2025-09-03 04:54:45Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-09-03 04:54:45Z INFO ProcessChannel] Receiving message of length 19443, with hash '6613b9aa243760a6f0e49e7f3a24214bb0df19a49fa88d13b3e57d46765e5e61'
+[2025-09-03 04:54:45Z INFO Worker] Message received.
+[2025-09-03 04:54:46Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/blank.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 8,
+        "col": 15,
+        "lit": "Say Hello"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 9,
+              "col": 14,
+              "lit": "echo \"Hello from my Windows self-hosted runner 🎉\""
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "c943f03e-2077-4c7b-8a98-01e524dfe5a2",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode16Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode20": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.MarkJobAsFailedOnWorkerCrash": {
+      "value": "true"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "RunService.FixEmbeddedIssues": {
+      "value": "true"
+    },
+    "actions_add_check_run_id_to_job_context": {
+      "value": "false"
+    },
+    "actions_display_helpful_actions_download_errors": {
+      "value": "true"
+    },
+    "actions_skip_retry_complete_job_upon_known_errors": {
+      "value": "true"
+    },
+    "actions_uses_cache_service_v2": {
+      "value": "true"
+    },
+    "github_token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.from_run_service": {
+      "value": "true"
+    },
+    "system.github.job": {
+      "value": "test"
+    },
+    "system.github.launch_endpoint": {
+      "value": "https://launch.actions.githubusercontent.com"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.github.results_upload_with_sdk": {
+      "value": "true"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.orchestrationId": {
+      "value": "07477eeb-0ba9-4dd4-818d-81e5eea3c6de.test.__default"
+    },
+    "system.phaseDisplayName": {
+      "value": "test"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "RunnerJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "actions",
+    "version": 0,
+    "planId": "07477eeb-0ba9-4dd4-818d-81e5eea3c6de",
+    "planGroup": null,
+    "artifactUri": null,
+    "artifactLocation": null,
+    "definition": null,
+    "owner": null
+  },
+  "timeline": {
+    "id": "07477eeb-0ba9-4dd4-818d-81e5eea3c6de",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "1e5b44b3-2b21-5435-a4b3-52bc1f7e376d",
+  "jobDisplayName": "test",
+  "jobName": "__default",
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "",
+          "ServerName": "",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/EK0i5uN5VukZVXztWnWZfHfEOfiUwrB6Jbjr6HSgpLBRL569it/",
+          "FeedStreamUrl": "wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "PipelinesServiceUrl": "https://pipelinesghubeus14.actions.githubusercontent.com/EK0i5uN5VukZVXztWnWZfHfEOfiUwrB6Jbjr6HSgpLBRL569it/",
+          "GenerateIdTokenUrl": ""
+        },
+        "name": "SystemVssConnection",
+        "url": "https://run-actions-2-azure-eastus.actions.githubusercontent.com/5/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": "***"
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "8cc0037e8679a14627b749b0461efe023b90ef4c"
+        },
+        {
+          "k": "repository",
+          "v": "K8SKuber/k8s-nginx-deployment"
+        },
+        {
+          "k": "repository_owner",
+          "v": "K8SKuber"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "143704168"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/K8SKuber/k8s-nginx-deployment.git"
+        },
+        {
+          "k": "run_id",
+          "v": "17423420293"
+        },
+        {
+          "k": "run_number",
+          "v": "1"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "actor_id",
+          "v": "103362892"
+        },
+        {
+          "k": "actor",
+          "v": "Messi10Hub"
+        },
+        {
+          "k": "workflow",
+          "v": "Test Self-Hosted Runner"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "8cc0037e8679a14627b749b0461efe023b90ef4c"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "752775fd0f1a460297e30875fc80ab24ac9351d4"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "103362892+Messi10Hub@users.noreply.github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Messi10Hub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "Messi10Hub"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "8cc0037e8679a14627b749b0461efe023b90ef4c"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Create blank.yml"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2025-09-03T10:24:35+05:30"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "044e172f2d85fa2d8763d126f8642f64dac43b85"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/K8SKuber/k8s-nginx-deployment/commit/8cc0037e8679a14627b749b0461efe023b90ef4c"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/K8SKuber/k8s-nginx-deployment/compare/752775fd0f1a...8cc0037e8679"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "103362892+Messi10Hub@users.noreply.github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Messi10Hub"
+                          },
+                          {
+                            "k": "username",
+                            "v": "Messi10Hub"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "noreply@github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "GitHub"
+                          },
+                          {
+                            "k": "username",
+                            "v": "web-flow"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "8cc0037e8679a14627b749b0461efe023b90ef4c"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Create blank.yml"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2025-09-03T10:24:35+05:30"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "044e172f2d85fa2d8763d126f8642f64dac43b85"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/K8SKuber/k8s-nginx-deployment/commit/8cc0037e8679a14627b749b0461efe023b90ef4c"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "organization",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/143704168?v=4"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/orgs/K8SKuber/events"
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/orgs/K8SKuber/hooks"
+                    },
+                    {
+                      "k": "id",
+                      "v": 143704168.0
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/orgs/K8SKuber/issues"
+                    },
+                    {
+                      "k": "login",
+                      "v": "K8SKuber"
+                    },
+                    {
+                      "k": "members_url",
+                      "v": "https://api.github.com/orgs/K8SKuber/members{/member}"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "O_kgDOCJDAaA"
+                    },
+                    {
+                      "k": "public_members_url",
+                      "v": "https://api.github.com/orgs/K8SKuber/public_members{/member}"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/orgs/K8SKuber/repos"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/orgs/K8SKuber"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "103362892+Messi10Hub@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "Messi10Hub"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/K8SKuber/k8s-nginx-deployment.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1756794282.0
+                    },
+                    {
+                      "k": "custom_properties",
+                      "v": {
+                        "t": 2
+                      }
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "K8SKuber/k8s-nginx-deployment"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/K8SKuber/k8s-nginx-deployment.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": false
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/K8SKuber/k8s-nginx-deployment"
+                    },
+                    {
+                      "k": "id",
+                      "v": 1048864038.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": null
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "k8s-nginx-deployment"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOPoRlJg"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "organization",
+                      "v": "K8SKuber"
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/143704168?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": null
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/K8SKuber/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/K8SKuber/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/K8SKuber/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/K8SKuber/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/K8SKuber"
+                          },
+                          {
+                            "k": "id",
+                            "v": 143704168.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "K8SKuber"
+                          },
+                          {
+                            "k": "name",
+                            "v": "K8SKuber"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "O_kgDOCJDAaA"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/K8SKuber/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/K8SKuber/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/K8SKuber/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/K8SKuber/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/K8SKuber/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "Organization"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/K8SKuber"
+                          },
+                          {
+                            "k": "user_view_type",
+                            "v": "public"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1756875276.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 2.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:K8SKuber/k8s-nginx-deployment.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/K8SKuber/k8s-nginx-deployment"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2025-09-02T06:54:31Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/repos/K8SKuber/k8s-nginx-deployment"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/103362892?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/Messi10Hub/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/Messi10Hub/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/Messi10Hub/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/Messi10Hub/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Messi10Hub"
+                    },
+                    {
+                      "k": "id",
+                      "v": 103362892.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "Messi10Hub"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "U_kgDOBikxTA"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/Messi10Hub/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/Messi10Hub/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/Messi10Hub/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/Messi10Hub/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/Messi10Hub/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/Messi10Hub"
+                    },
+                    {
+                      "k": "user_view_type",
+                      "v": "public"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "workflow_ref",
+          "v": "K8SKuber/k8s-nginx-deployment/.github/workflows/blank.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "8cc0037e8679a14627b749b0461efe023b90ef4c"
+        },
+        {
+          "k": "repository_id",
+          "v": "1048864038"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "Messi10Hub"
+        }
+      ]
+    },
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "needs": {
+      "t": 2
+    },
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "vars": {
+      "t": 2
+    }
+  },
+  "billingOwnerId": "O_kgDOCJDAaA"
+}
+[2025-09-03 04:54:46Z INFO JobRunner] Job ID 1e5b44b3-2b21-5435-a4b3-52bc1f7e376d
+[2025-09-03 04:54:46Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin\Runner.Worker.dll
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO ConfigurationStore] binPath: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO ConfigurationStore] RootFolder: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known config file 'Runner': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.runner'
+[2025-09-03 04:54:46Z INFO ConfigurationStore] ConfigFilePath: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.runner
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.runner_migrated'
+[2025-09-03 04:54:46Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.runner_migrated
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.credentials'
+[2025-09-03 04:54:46Z INFO ConfigurationStore] CredFilePath: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.credentials
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.credentials_migrated'
+[2025-09-03 04:54:46Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.credentials_migrated
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known config file 'Service': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.service'
+[2025-09-03 04:54:46Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.service
+[2025-09-03 04:54:46Z INFO ConfigurationStore] Read setting file: 409 chars
+[2025-09-03 04:54:46Z INFO JobRunner] Initializing launch client
+[2025-09-03 04:54:46Z INFO JobServerQueue] Initializing results client
+[2025-09-03 04:54:46Z INFO ResultServer] Creating websocket client ...wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock
+[2025-09-03 04:54:46Z INFO ResultServer] Attempting to start websocket client with delay 00:00:00.
+[2025-09-03 04:54:46Z INFO JobServerQueue] Start process web console line queue.
+[2025-09-03 04:54:46Z INFO JobServerQueue] Start process file upload queue.
+[2025-09-03 04:54:46Z INFO JobServerQueue] Start results file upload queue.
+[2025-09-03 04:54:46Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-09-03 04:54:46Z INFO JobServerQueue] Start process timeline update queue.
+[2025-09-03 04:54:46Z INFO ExecutionContext] Initializing Job context
+[2025-09-03 04:54:46Z INFO ExecutionContext] Initialize GitHub context
+[2025-09-03 04:54:46Z INFO ExecutionContext] Initialize Env context
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:46Z INFO JobRunner] Starting the job execution context.
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO JobRunner] Validating directory permissions for: 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Tools': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_tool'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Temp': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_temp'
+[2025-09-03 04:54:46Z INFO JobRunner] Getting job extension.
+[2025-09-03 04:54:46Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.credentials'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\.setup_info'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_PipelineMapping\K8SKuber/k8s-nginx-deployment\PipelineFolder.json
+[2025-09-03 04:54:46Z INFO PipelineDirectoryManager] Creating a new tracking config file.
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO PipelineDirectoryManager] Creating pipeline directory.
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO PipelineDirectoryManager] Creating workspace directory.
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO JobExtension] Downloading actions
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Actions': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_actions'
+[2025-09-03 04:54:46Z INFO JobExtension] Adding .
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:46Z INFO JobExtension] Total accessible running process: 256.
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO JobExtension] Start checking service connectivity in background.
+[2025-09-03 04:54:46Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "b9445127-22af-491b-bc0a-9645cfd83abd",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-09-03T04:54:46.2028797Z",
+  "finishTime": "2025-09-03T04:54:46.3036672Z"
+}.
+[2025-09-03 04:54:46Z INFO JobRunner] Total job steps: 1.
+[2025-09-03 04:54:46Z INFO JobRunner] Run all job steps.
+[2025-09-03 04:54:46Z INFO StepsRunner] Processing step: DisplayName='Say Hello'
+[2025-09-03 04:54:46Z INFO StepsRunner] Evaluating: success()
+[2025-09-03 04:54:46Z INFO StepsRunner] Result: true
+[2025-09-03 04:54:46Z INFO StepsRunner] Starting the step.
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO StepsRunner] Which2: 'chcp'
+[2025-09-03 04:54:46Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper] Process started with process id 6624, waiting for process exit.
+[2025-09-03 04:54:46Z INFO Worker] Listening for cancel message from the channel.
+[2025-09-03 04:54:46Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper] Finished process 6624 with exit code 0, and elapsed time 00:00:00.0530993.
+[2025-09-03 04:54:46Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Temp': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_temp'
+[2025-09-03 04:54:46Z INFO ExecutionContext] Write event payload to C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_temp\_github_workflow\event.json
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Temp': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_temp'
+[2025-09-03 04:54:46Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command error
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command group
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-09-03 04:54:46Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-09-03 04:54:46Z INFO ScriptHandler] Which2: 'pwsh'
+[2025-09-03 04:54:46Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2025-09-03 04:54:46Z INFO ScriptHandler] Defaulting to powershell
+[2025-09-03 04:54:46Z INFO ScriptHandler] Which2: 'powershell'
+[2025-09-03 04:54:46Z INFO ScriptHandler] Location: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Work': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work'
+[2025-09-03 04:54:46Z INFO HostContext] Well known directory 'Temp': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_temp'
+[2025-09-03 04:54:46Z INFO ScriptHandler] Which2: 'pwsh'
+[2025-09-03 04:54:46Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2025-09-03 04:54:46Z INFO ScriptHandler] Defaulting to powershell
+[2025-09-03 04:54:46Z INFO ScriptHandler] Which2: 'powershell'
+[2025-09-03 04:54:46Z INFO ScriptHandler] Location: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Arguments: '-command ". 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_temp\93555424-389d-4a0a-9e8c-a6a2b623422e.ps1'"'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\k8s-nginx-deployment\k8s-nginx-deployment'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-09-03 04:54:46Z INFO ProcessInvokerWrapper] Process started with process id 2332, waiting for process exit.
+[2025-09-03 04:54:47Z INFO ResultServer] Successfully started websocket client.
+[2025-09-03 04:54:47Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'b9445127-22af-491b-bc0a-9645cfd83abd', success rate: 1/1.
+[2025-09-03 04:54:47Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-09-03 04:54:47Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag\blocks\07477eeb-0ba9-4dd4-818d-81e5eea3c6de_b9445127-22af-491b-bc0a-9645cfd83abd.1
+[2025-09-03 04:54:47Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-09-03 04:54:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-09-03 04:54:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-09-03 04:54:47Z INFO ProcessInvokerWrapper] Finished process 2332 with exit code 1, and elapsed time 00:00:00.6829660.
+[2025-09-03 04:54:47Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_temp\_runner_file_commands\step_summary_4a67659c-3095-49a5-a132-57cdd6b0ae9d) is empty; skipping attachment upload
+[2025-09-03 04:54:47Z INFO StepsRunner] Step result: Failed
+[2025-09-03 04:54:47Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "powershell",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "c943f03e-2077-4c7b-8a98-01e524dfe5a2",
+  "stepContextName": "__run",
+  "result": "failed",
+  "errorMessages": [
+    "Process completed with exit code 1."
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-09-03T04:54:46.3328916Z",
+  "finishTime": "2025-09-03T04:54:47.2340301Z"
+}.
+[2025-09-03 04:54:47Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2025-09-03 04:54:47Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-09-03 04:54:47Z INFO JobRunner] Finalize job.
+[2025-09-03 04:54:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:47Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:47Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:47Z INFO JobExtension] Initialize Env context
+[2025-09-03 04:54:47Z INFO JobExtension] Initialize steps context
+[2025-09-03 04:54:47Z INFO JobExtension] Total accessible running process: 260.
+[2025-09-03 04:54:47Z INFO JobExtension] Inspecting process environment variables. PID: 21496 (docker)
+[2025-09-03 04:54:47Z INFO JobExtension] Inspecting process environment variables. PID: 20756 (conhost)
+[2025-09-03 04:54:47Z INFO JobExtension] Inspecting process environment variables. PID: 10692 (docker)
+[2025-09-03 04:54:47Z INFO JobExtension] Inspecting process environment variables. PID: 19800 (conhost)
+[2025-09-03 04:54:47Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "44046026-3fe0-4553-9baa-7a0acba246e8",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-09-03T04:54:47.2493686Z",
+  "finishTime": "2025-09-03T04:54:47.3002648Z"
+}.
+[2025-09-03 04:54:47Z INFO JobRunner] Job result after all job steps finish: Failed
+[2025-09-03 04:54:47Z INFO JobRunner] Completing the job execution context.
+[2025-09-03 04:54:47Z INFO JobRunner] Shutting down the job server queue.
+[2025-09-03 04:54:47Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-09-03 04:54:47Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2025-09-03 04:54:49Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2025-09-03 04:54:50Z INFO JobServerQueue] All queue process task stopped.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c943f03e-2077-4c7b-8a98-01e524dfe5a2', success rate: 1/1.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record '44046026-3fe0-4553-9baa-7a0acba246e8', success rate: 1/1.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Web console line queue drained.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2025-09-03 04:54:50Z INFO JobServerQueue] File upload queue drained.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-09-03 04:54:50Z INFO JobServerQueue] Uploading 3 file(s) in one shot through results service.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag\blocks\07477eeb-0ba9-4dd4-818d-81e5eea3c6de_c943f03e-2077-4c7b-8a98-01e524dfe5a2.1
+[2025-09-03 04:54:50Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-09-03 04:54:50Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag\blocks\07477eeb-0ba9-4dd4-818d-81e5eea3c6de_44046026-3fe0-4553-9baa-7a0acba246e8.1
+[2025-09-03 04:54:51Z INFO JobServerQueue] Got a job log file to send to results service.
+[2025-09-03 04:54:51Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag\blocks\07477eeb-0ba9-4dd4-818d-81e5eea3c6de_1e5b44b3-2b21-5435-a4b3-52bc1f7e376d.1
+[2025-09-03 04:54:52Z INFO JobServerQueue] Tried to upload 3 file(s) to results, success rate: 3/3.
+[2025-09-03 04:54:52Z INFO JobServerQueue] Results upload queue drained.
+[2025-09-03 04:54:52Z INFO JobServerQueue] Timeline update queue drained.
+[2025-09-03 04:54:52Z INFO JobServerQueue] Disposing job server ...
+[2025-09-03 04:54:52Z INFO JobServerQueue] Disposing results server ...
+[2025-09-03 04:54:52Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-09-03 04:54:52Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_work\_temp
+[2025-09-03 04:54:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\bin'
+[2025-09-03 04:54:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner'
+[2025-09-03 04:54:52Z INFO HostContext] Well known directory 'Diag': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag'
+[2025-09-03 04:54:52Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\asus\Desktop\Rishabh GitHub\Kubernetes\k8s-nginx-deployment\actions-runner\_diag\.telemetry'
+[2025-09-03 04:54:52Z INFO JobRunner] Raising job completed against run service
+[2025-09-03 04:54:53Z INFO Worker] Job completed.

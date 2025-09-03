@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "K8SKuber/k8s-nginx-deployment",
+  "pipelineDirectory": "k8s-nginx-deployment",
+  "workspaceDirectory": "k8s-nginx-deployment\\k8s-nginx-deployment",
+  "repositories": {
+    "K8SKuber/k8s-nginx-deployment": {
+      "repositoryPath": "k8s-nginx-deployment\\k8s-nginx-deployment",
+      "lastRunOn": "09/03/2025 10:24:46 +05:30"
+    }
+  },
+  "lastRunOn": "09/03/2025 10:24:46 +05:30"
+}

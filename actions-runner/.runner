@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 21,
+  "agentName": "DESKTOP-KAR79DD",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus14.actions.githubusercontent.com/EK0i5uN5VukZVXztWnWZfHfEOfiUwrB6Jbjr6HSgpLBRL569it/",
+  "gitHubUrl": "https://github.com/K8SKuber/k8s-nginx-deployment",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
