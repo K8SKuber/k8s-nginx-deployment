@@ -12,11 +12,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install kubectl
-        run: |
-          curl -LO "https://dl.k8s.io/release/v1.30.0/bin/windows/amd64/kubectl.exe"
-          move kubectl.exe C:\Windows\System32\kubectl.exe
-
       - name: Verify kubectl version
         run: kubectl version --client
 
